@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fa96f46275c40c0a02d6bed4026a8d9, type: 3}
+  m_Name: Money X4 Booster
+  m_EditorClassIdentifier: 
+  FileName: Money X4 Booster
+  _boosterType: 2
+  _ballsCount: 1
+  _earnMultiplier: 4
+  _workTime: 10

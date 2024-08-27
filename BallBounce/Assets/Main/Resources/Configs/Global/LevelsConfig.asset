@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65312fd1c57c4a77a4732367fd2285f0, type: 3}
+  m_Name: LevelsConfig
+  m_EditorClassIdentifier: 
+  FileName: LevelsConfig
+  _levelConfigs:
+  - {fileID: 11400000, guid: a5264ae650d985540bb6438d7de831bc, type: 2}
+  - {fileID: 11400000, guid: 768e6fd78f1b8b64c9ff8ed57633f946, type: 2}
+  - {fileID: 11400000, guid: 3a97d397d9b4aa245a84844be20bce3e, type: 2}
+  - {fileID: 11400000, guid: 0b6efeb783f4ec74c9c8ec10a6431df6, type: 2}
+  - {fileID: 11400000, guid: d3e19ba7be36b234cbd596076e5f40aa, type: 2}
+  _platformCostConfig:
+    _progressionFormula: 50+id*700+LE/2
+    _roundness: 50
+    _progression: 32000000ee02000008070000ea0b0000fe10000044160000bc1b000034210000ac260000242c0000
+  _dynamicPlatformCostConfig:
+    _progressionFormula: 2000+3000*id*id+LE/10*id
+    _roundness: 50
+    _progression: d007000050140000983a0000dc820000a8f700009ca8010060ac0200
+  _boostersSystemConfig:
+    _boostersConfigs:
+    - {fileID: 11400000, guid: de97019e88254df4d99b4a2f5fa8a3ad, type: 2}
+    - {fileID: 11400000, guid: f631f72e7dda5464eb9d0ed8f4a891b1, type: 2}
+    - {fileID: 11400000, guid: b413282f88a1ba14db7b9b822fdecbb3, type: 2}
+    - {fileID: 11400000, guid: 5df729989cc69014198c5d3a21740ff1, type: 2}
+    - {fileID: 11400000, guid: 0717e7c983f736048a5000c047942648, type: 2}
+    - {fileID: 11400000, guid: 6f69cceb058d68147952dde250f3df7b, type: 2}
+    - {fileID: 11400000, guid: d95e4736e0a3ed0438f0ddda32b4baa2, type: 2}
+    _useRandomBoosters: 1
+    _onScreenTime: 90
+    _newBoosterFrequency: {x: 50, y: 120}
+  _prizeSystemConfig:
+    _spawnFrequency: 90
+    _needBallsHit: 30
+    _reward: 500
+    _levelPercentReward: 10
